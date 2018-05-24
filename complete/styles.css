@@ -1,0 +1,118 @@
+/* Fonts */
+@font-face {
+    font-family: 'starwars';
+    src: url('fonts/Starjedi.ttf');
+}
+
+/* General */
+body {
+    background-attachment: fixed;
+    background-image: url('../assets/images/background.jpg');
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+a, p, li, h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    font-family: 'starwars';
+    overflow: hidden;
+}
+.header img {
+    float: left;
+    border: solid 3px #f9de03;
+}
+.header .titles {
+    margin-left: 130px;
+}
+.header h1,
+.header h2 {
+    color: #f9de03;
+    margin: 0;
+}
+.header h1 {
+    font-size: 30px;
+}
+.header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation */
+.navigation {
+    overflow: hidden;
+    background: #111111;
+}
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li {
+    border-right: solid 2px #000000;
+    float: left;
+    padding: 10px 20px;
+}
+.navigation ul li:hover {
+    background: #000000;
+}
+.navigation ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Content */
+.content {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+}
+.content h3 {
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+.content p {
+    font-size: 24px;
+    text-indent: 20px;
+}
+
+/* Footer */
+.footer {
+    background: #111111;
+    padding: 20px;
+}
+.footer p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Call To Action */
+.buy-tickets-button {
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 400px;
+}
+.buy-tickets-button.cta {
+    background: #ff0000;
+}
+.buy-tickets-button.cta:hover {
+    background: #dd0000;
+    cursor: pointer;
+}
+.buy-tickets-button.purchased {
+    background: #00ff00;
+}
